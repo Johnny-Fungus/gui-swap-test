@@ -10,15 +10,19 @@
     <h1>GUI swap test</h1>
     <div class="modeSelector">
         <h2>placeholder mode title</h2>
-        <button>swap mode</button>
+        <button onclick="swapModes()">swap mode</button>
     </div>
-    <div class="bedtimeMode">
+    <div class="modeContainer" id="bedtimeMode">
         <p>this is bedtime mode</p>
         <button>B</button>
+        <button>A</button>
     </div>
-    <div class="closeMode">
+    <div class="modeContainer hidden" id="closeMode">
         <p>this is close mode</p>
         <button>B</button>
     </div>
 </body>
+<footer>
+    <script src="script.js"></script>
+</footer>
 </html>

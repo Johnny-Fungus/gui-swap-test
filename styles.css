@@ -3,9 +3,29 @@ body{
     font-size: 12pt;
 }
 
-div{
+h1{
+    text-align: center;
+}
+
+/*select divs that are first children of body*/
+body > div{
     background-color: darksalmon;
     border-radius: 1em;
     padding: 1em;
     margin-top: 1em;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bedtimeMode{
+    background-color: crimson;
+}
+
+#closeMode{
+    background-color: brown;
+}
+
+.modeContainer.hidden{
+    display: none;
 }
