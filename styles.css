@@ -1,0 +1,11 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12pt;
+}
+
+div{
+    background-color: darksalmon;
+    border-radius: 1em;
+    padding: 1em;
+    margin-top: 1em;
+}
